@@ -1,3 +1,0 @@
-#temporary file
-
-print("Hi")
