@@ -27,7 +27,7 @@ class aboutclass:
         self.lbl_albumnumber=Label(self.root,text="For any queries:\nEmail: janhavi.obhan@somaiya.edu\nContact Number: 9322935775\nInstagram:            ",bd=5,relief=RIDGE,bg="#f3ffe3",fg="black",font=("courier new",15,"bold"))
         self.lbl_albumnumber.place(x=450,y=300,height=200,width=610)
 
-        self.link1 = Label(root, text="@jjaann2809", bg="#f3ffe3", fg="blue", cursor="hand2",font=("courier new",15,"bold"))
+        self.link1 = Label(root, text="@jjaann2809", bg="#f3ffe3", fg="blue", cursor="hand2",font=("times new roman",15,"bold"))
         self.link1.pack()
         self.link1.bind("<Button-1>", lambda e: callback("https://www.instagram.com/jjaann2809/"))
         self.link1.place(x=750,y=420)
